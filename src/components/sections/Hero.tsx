@@ -100,7 +100,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-blue-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
               </a>
               <a 
-                href="/resume.jpeg" 
+                href="/portfolio/resume.jpeg" 
                 target="_blank"
                 className="px-8 py-3 bg-white/5 border border-white/10 text-white rounded-lg font-medium hover:bg-white/10 transition-all duration-300"
               >
@@ -150,7 +150,7 @@ export default function Hero() {
                 className="absolute inset-0 rounded-full overflow-hidden border-4 border-[#0B1120] shadow-[0_0_30px_rgba(59,130,246,0.3)] bg-[#0B1120]"
               >
                 <div className="w-full h-full rounded-full overflow-hidden relative group">
-                  <img src="/profile.jpg" alt="Lavanya Ramavath" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <img src="/portfolio/profile.jpg" alt="Lavanya Ramavath" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-blue-500/10 mix-blend-overlay group-hover:opacity-0 transition-opacity duration-700" />
                 </div>
               </motion.div>

@@ -34,7 +34,7 @@ export default function About() {
               
               {/* Profile Picture */}
               <img 
-                src="/about-pic.jpeg" 
+                src="/portfolio/about-pic.jpeg" 
                 alt="Lavanya Ramavath" 
                 className="w-full h-full object-cover object-top relative z-0 opacity-90 grayscale-[20%] group-hover:grayscale-0 transition-all duration-500"
               />

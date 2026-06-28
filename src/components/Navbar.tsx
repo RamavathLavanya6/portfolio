@@ -72,7 +72,7 @@ export default function Navbar() {
       </ul>
 
       <a 
-        href="/resume.jpeg"
+        href="/portfolio/resume.jpeg"
         target="_blank"
         className="hidden md:flex items-center justify-center px-6 py-2.5 text-[0.8rem] font-medium tracking-wider text-white border border-blue-500/50 rounded-full bg-blue-500/10 hover:bg-blue-500 hover:border-blue-500 transition-all duration-300"
       >

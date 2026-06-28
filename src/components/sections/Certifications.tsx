@@ -9,42 +9,42 @@ const CERTIFICATES = [
     title: 'YUVA AI For All',
     issuer: 'TCSiON',
     date: 'Feb 2026',
-    file: '/tcsion.png',
+    file: '/portfolio/tcsion.png',
   },
   {
     id: 2,
     title: 'Generative AI and CHATGPT',
     issuer: 'GEEKS FOR GEEKS',
     date: 'Jan 2025',
-    file: '/GFG.jpeg',
+    file: '/portfolio/GFG.jpeg',
   },
   {
     id: 3,
     title: 'Ediglobe Certification',
     issuer: 'Ediglobe',
     date: '2025',
-    file: '/EDI.jpeg',
+    file: '/portfolio/EDI.jpeg',
   },
   {
     id: 4,
     title: 'Cisco Certification',
     issuer: 'Cisco',
     date: '2025',
-    file: '/CIS.jpeg',
+    file: '/portfolio/CIS.jpeg',
   },
   {
     id: 5,
     title: 'Scaler Certification',
     issuer: 'Scaler',
     date: '2025',
-    file: '/scaler.jpeg',
+    file: '/portfolio/scaler.jpeg',
   },
   {
     id: 6,
     title: 'Tata Certification',
     issuer: 'Tata',
     date: '2025',
-    file: '/tata.jpeg',
+    file: '/portfolio/tata.jpeg',
   }
 ];
 
