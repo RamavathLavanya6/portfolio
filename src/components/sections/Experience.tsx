@@ -10,7 +10,7 @@ const EXPERIENCES = [
     duration: "2025",
     description: "Completed an intensive internship program focusing on Artificial Intelligence and Machine Learning technologies. Applied theoretical knowledge to practical projects and gained hands-on experience in the field.",
     tags: ["AI", "Machine Learning", "Python"],
-    certificate: "/portfolio/edi-internship.jpeg"
+    certificate: "/edi-internship.jpeg"
   },
   {
     role: "Machine Learning Intern",
