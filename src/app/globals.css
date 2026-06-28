@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  /* Dark AI/ML Theme Backgrounds */
+  --color-ink: #0B1120; /* Deep navy */
+  --color-ink-2: #111827; /* Slightly lighter navy */
+  --color-ink-3: #1F2937; /* Slate 800 */
+  --color-ink-4: #374151; /* Slate 700 */
+  
+  /* Vibrant Tech Accents */
+  --color-gold: #3B82F6; /* Bright Blue */
+  --color-gold-2: #8B5CF6; /* Vibrant Purple */
+  
+  /* Light text */
+  --color-cream: #FFFFFF;
+  --color-cream-2: #F1F5F9; /* Slate 100 */
+  --color-muted: #94A3B8; /* Slate 400 */
+
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  --font-cormorant: var(--font-cormorant);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-cream);
+    overflow-x: hidden;
+  }
+  
+  /* Noise overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+    opacity: 0.03; /* Slightly lowered for dark mode */
+    pointer-events: none;
+    z-index: 9000;
+  }
+}
