@@ -69,11 +69,6 @@ export default function Certifications() {
               <>
                 {/* Decorative Background Accent */}
                 <div className="absolute -top-12 -right-12 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl group-hover:bg-blue-500/20 transition-colors duration-500 pointer-events-none" />
-                {cert.image && (
-                  <div className="relative w-full h-40 mb-6 rounded-lg overflow-hidden border border-slate-700/50">
-                    <img src={cert.image} alt={cert.title} className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-500 hover:scale-105" />
-                  </div>
-                )}
                 
                 <div className="flex justify-between items-start mb-8 relative z-10">
                   <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-900 border border-blue-500/30 text-blue-400 group-hover:text-blue-300 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-[0_0_10px_rgba(59,130,246,0.5)] transition-all duration-500">
