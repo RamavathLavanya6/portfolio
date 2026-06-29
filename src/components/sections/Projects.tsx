@@ -15,7 +15,7 @@ const PROJECTS = [
       'Implemented data drift detection using Evidently and automated deployment via CI/CD pipelines with Docker and AWS EC2.'
     ],
     tags: ['Machine Learning', 'FastAPI', 'Docker', 'AWS', 'MLOps'],
-    github: 'https://github.com/RamavathLavanya6/Global-Mobility-Application-Analyzer',
+    github: 'https://github.com/RamavathLavanya6/GMAA',
     live: null
   },
   {
