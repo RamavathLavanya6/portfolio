@@ -60,7 +60,7 @@ export default function Philosophy() {
           transition={{ duration: 1, delay: 0.6 }}
           className="text-amber-500 font-medium tracking-wider text-sm mt-6 font-cormorant"
         >
-          — Chandana Polipally
+          — Lavanya Ramavath
         </motion.div>
         
       </div>
