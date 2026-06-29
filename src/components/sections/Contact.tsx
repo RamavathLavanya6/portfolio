@@ -66,7 +66,7 @@ export default function Contact() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="text-[clamp(2.2rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-6 tracking-tight"
         >
-          Let's build something <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">extraordinary</span> together.
+          Have an idea? Let's <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">make it happen</span>.
         </motion.h2>
 
         {/* Subtext */}
@@ -77,7 +77,7 @@ export default function Contact() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-[1.05rem] leading-[1.8] text-slate-400 max-w-[620px] mx-auto mb-12"
         >
-          Whether you have an exciting project, collaboration opportunity, or simply want to connect, I'd love to hear from you.
+          I'm always open to discussing new opportunities, collaborations, and innovative ideas. Feel free to reach out—I'd love to hear from you.
         </motion.p>
 
         {/* Premium Rounded Social Buttons */}
