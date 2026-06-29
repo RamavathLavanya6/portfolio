@@ -88,13 +88,13 @@ export default function About() {
               className="text-[1.05rem] leading-[1.9] text-muted space-y-6"
             >
               <p>
-                I am a detail-oriented and motivated <strong className="font-normal text-cream-2">AI/ML professional</strong> with hands-on experience in machine learning, data analysis, and visualization. 
+                I am <strong className="font-normal text-cream-2">Lavanya Ramavath</strong>, a CSE (AI &amp; ML) student passionate about leveraging Artificial Intelligence, Machine Learning, and Data Analytics to solve real-world problems. I enjoy transforming raw data into meaningful insights and building intelligent applications that create real impact.
               </p>
               <p>
-                Currently pursuing a <strong className="font-normal text-cream-2">B.Tech in CSE (AI & ML)</strong> at St. Martin's Engineering College, I am proficient in building predictive models, end-to-end ML solutions, and interactive dashboards.
+                With hands-on experience in <strong className="font-normal text-cream-2">Python, SQL, Machine Learning, Power BI, Tableau, and Data Visualization</strong>, I continuously explore emerging technologies, strengthen my technical skills, and enjoy solving challenging problems through innovative solutions.
               </p>
               <p>
-                Whether it's detecting malicious bots, analyzing Netflix viewership trends, or predicting loan risks, my goal is to leverage robust analytics and <strong className="font-normal text-cream-2">data-driven decision making</strong> to solve complex problems.
+                I aim to build scalable AI applications that combine data, analytics, and intelligent automation to improve <strong className="font-normal text-cream-2">decision-making and user experiences</strong>.
               </p>
             </motion.div>
 
