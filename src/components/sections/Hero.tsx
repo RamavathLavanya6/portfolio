@@ -2,7 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaJava } from 'react-icons/fa';
+import { SiPython, SiLeetcode, SiMysql } from 'react-icons/si';
 
 const ROLES = [
   'Data Analyst',
@@ -152,7 +153,32 @@ export default function Hero() {
                 </div>
               </motion.div>
 
-
+              {/* Orbiting Tech Badges */}
+              {[
+                { icon: FaGithub, color: 'text-white', angle: 0 },
+                { icon: FaLinkedin, color: 'text-blue-500', angle: 60 },
+                { icon: SiPython, color: 'text-[#3776AB]', angle: 120 },
+                { icon: SiLeetcode, color: 'text-orange-500', angle: 180 },
+                { icon: FaJava, color: 'text-[#f89820]', angle: 240 },
+                { icon: SiMysql, color: 'text-[#4479A1]', angle: 300 },
+              ].map((badge, idx) => {
+                return (
+                  <motion.div
+                    key={idx}
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.8 + (idx * 0.1), type: 'spring' }}
+                    className="absolute hidden md:flex items-center justify-center w-14 h-14 rounded-full bg-[#111827] border border-slate-700/50 shadow-lg shadow-black/50 z-20 hover:scale-125 transition-transform duration-300 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] cursor-pointer"
+                    style={{ 
+                      top: `calc(50% + ${Math.sin(badge.angle * (Math.PI / 180)) * 260}px)`, 
+                      left: `calc(50% + ${Math.cos(badge.angle * (Math.PI / 180)) * 260}px)`,
+                      transform: 'translate(-50%, -50%)'
+                    }}
+                  >
+                    <badge.icon className={`text-2xl ${badge.color}`} />
+                  </motion.div>
+                );
+              })}
 
             </motion.div>
           </div>
