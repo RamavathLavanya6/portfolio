@@ -6,6 +6,19 @@ import { FaChevronDown } from 'react-icons/fa';
 
 const PROJECTS = [
   {
+    title: 'Global Mobility Application Analyzer',
+    category: 'Machine Learning / MLOps',
+    description: 'An end-to-end machine learning project designed to automate the processing and analysis of immigration and relocation applications, specifically predicting US Visa approval chances.',
+    implementation: [
+      'Developed a comprehensive ML pipeline including data ingestion, validation, transformation, and model training.',
+      'Built a real-time prediction pipeline using FastAPI for serving model predictions.',
+      'Implemented data drift detection using Evidently and automated deployment via CI/CD pipelines with Docker and AWS EC2.'
+    ],
+    tags: ['Machine Learning', 'FastAPI', 'Docker', 'AWS', 'MLOps'],
+    github: 'https://github.com/RamavathLavanya6/Global-Mobility-Application-Analyzer',
+    live: null
+  },
+  {
     title: 'Ai-Powered Mindmapr',
     category: 'Machine Learning / NLP',
     description: 'An intelligent mind-mapping tool that leverages natural language processing to automatically generate and organize complex concepts into visual maps, streamlining the ideation process for users.',
