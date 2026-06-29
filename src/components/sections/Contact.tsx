@@ -76,7 +76,7 @@ export default function Contact() {
                     </div>
                   </a>
                   
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/50 hover:bg-slate-800/50 transition-all group">
+                  <a href="https://www.linkedin.com/in/lavanyramavath" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/50 hover:bg-slate-800/50 transition-all group">
                     <div className="w-10 h-10 rounded-full bg-blue-500/10 text-blue-400 flex items-center justify-center group-hover:scale-110 transition-transform">
                       <FaLinkedin />
                     </div>
@@ -96,7 +96,7 @@ export default function Contact() {
             <a href="https://github.com/RamavathLavanya6/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors text-xl cursor-pointer">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors text-xl cursor-pointer">
+            <a href="https://www.linkedin.com/in/lavanyramavath" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors text-xl cursor-pointer">
               <FaLinkedin />
             </a>
             <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors font-bold text-sm uppercase tracking-wider cursor-pointer">

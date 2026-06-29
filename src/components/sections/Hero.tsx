@@ -116,7 +116,7 @@ export default function Hero() {
             >
               {[
                 { icon: FaGithub, href: 'https://github.com/RamavathLavanya6/', color: 'hover:text-white' },
-                { icon: FaLinkedin, href: 'https://www.linkedin.com/in/lavanya-ramavath-942634287/', color: 'hover:text-blue-500' },
+                { icon: FaLinkedin, href: 'https://www.linkedin.com/in/lavanyramavath', color: 'hover:text-blue-500' },
                 { icon: SiLeetcode, href: '#', color: 'hover:text-orange-500' },
                 { icon: SiHackerrank, href: '#', color: 'hover:text-green-500' },
                 { icon: FaEnvelope, href: 'mailto:lavanyaramavath6@gmail.com', color: 'hover:text-red-400' },
