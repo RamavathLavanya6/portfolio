@@ -77,14 +77,7 @@ export default function Hero() {
               />
             </motion.div>
 
-            <motion.p 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="text-slate-400 text-lg leading-relaxed mb-10 max-w-xl"
-            >
-              I transform raw data into meaningful business insights through Data Analytics, Power BI, SQL, Python, and Machine Learning. Passionate about solving real-world problems using data-driven decision making and creating impactful analytics solutions.
-            </motion.p>
+
 
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
