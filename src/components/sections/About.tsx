@@ -112,11 +112,11 @@ export default function About() {
               </div>
               <div className="flex flex-col gap-1">
                 <span className="text-[2.5rem] font-bold text-purple-400">6+</span>
-                <span className="text-[0.7rem] font-medium tracking-[0.2em] uppercase text-slate-400">Certifications</span>
+                <span className="text-[0.7rem] font-medium tracking-[0.2em] uppercase text-slate-400">Projects Completed</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-[2.5rem] font-bold text-cyan-400">3+</span>
-                <span className="text-[0.7rem] font-medium tracking-[0.2em] uppercase text-slate-400">ML Projects</span>
+                <span className="text-[2.5rem] font-bold text-cyan-400">10+</span>
+                <span className="text-[0.7rem] font-medium tracking-[0.2em] uppercase text-slate-400">GitHub Repos</span>
               </div>
             </motion.div>
           </div>
