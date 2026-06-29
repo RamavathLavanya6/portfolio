@@ -55,7 +55,7 @@ const PROJECTS = [
     ],
     tags: ['Power BI', 'DAX', 'Data Visualization'],
     github: 'https://github.com/RamavathLavanya6/netflix-bi-analytics-suite',
-    live: 'https://powerbi.microsoft.com/en-us/'
+    live: 'https://ramavathlavanya6.github.io/netflix-bi-analytics-suite/'
   },
   {
     title: 'WomenSafe AI',
