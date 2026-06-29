@@ -4,55 +4,64 @@ import { motion } from 'framer-motion';
 
 export default function Philosophy() {
   return (
-    <section id="philosophy" className="py-[clamp(5rem,8vw,8rem)] px-[clamp(1.4rem,4vw,4rem)] bg-[#0B1120] relative overflow-hidden">
+    <section id="philosophy" className="py-[clamp(5rem,8vw,8rem)] px-[clamp(1.4rem,4vw,4rem)] bg-ink-2 relative overflow-hidden">
       
       {/* Sci-Fi Background Blurs */}
-      <div className="absolute inset-0 z-[0] overflow-hidden pointer-events-none opacity-40">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-[100px]" />
-        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-[100px]" />
+      <div className="absolute inset-0 z-[0] overflow-hidden pointer-events-none opacity-30">
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-[120px]" />
+        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px]" />
       </div>
 
-      <div className="max-w-[900px] mx-auto relative z-10 text-center">
+      <div className="max-w-[850px] mx-auto relative z-10 text-center">
         
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8 }}
-          className="text-[0.7rem] tracking-[0.3em] font-medium uppercase text-blue-400 mb-8"
-        >
-          Philosophy
-        </motion.div>
-
-        <motion.h2 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-[clamp(1.8rem,3.5vw,3rem)] font-bold leading-[1.3] text-white mb-8 tracking-tight"
-        >
-          <span className="block mb-2">Algorithms are just math.</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 block mb-2">Intelligence is knowing how to apply them.</span>
-          <span className="block">I engineer solutions that drive real impact.</span>
-        </motion.h2>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-[1.1rem] text-slate-400 max-w-[750px] mx-auto mb-12 leading-[1.8]"
-        >
-          To me, data is more than just numbers on a screen—it is the blueprint for innovation. By combining advanced machine learning techniques with sharp business intelligence, I build systems that don't just answer questions, but anticipate them.
-        </motion.p>
-
+        {/* Title with thin gold line */}
         <motion.div 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="w-[2px] h-[80px] bg-gradient-to-b from-blue-500 to-transparent mx-auto"
-        />
+          transition={{ duration: 0.8 }}
+          className="flex items-center justify-center gap-4 mb-16"
+        >
+          <div className="w-12 h-[1px] bg-gradient-to-r from-transparent to-amber-500" />
+          <span className="text-[0.7rem] tracking-[0.3em] font-medium uppercase text-amber-500">06. PHILOSOPHY</span>
+          <div className="w-12 h-[1px] bg-gradient-to-l from-transparent to-amber-500" />
+        </motion.div>
+
+        {/* Quote container with absolute quote mark behind */}
+        <div className="relative mb-8">
+          {/* Elegant quotation mark */}
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 0.15, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, delay: 0.2 }}
+            className="font-cormorant text-[16rem] leading-none select-none pointer-events-none absolute -top-24 left-1/2 -translate-x-1/2 z-0 font-light text-amber-500"
+          >
+            “
+          </motion.div>
+
+          {/* Quote text */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.2, delay: 0.3 }}
+            className="font-cormorant italic font-light text-[clamp(1.3rem,2.5vw,2rem)] leading-relaxed text-slate-200 relative z-10 max-w-[750px] mx-auto px-4"
+          >
+            "I believe technology should simplify lives, not complicate them. My passion lies in building intelligent systems that transform data into meaningful decisions. Every machine learning model I create is guided by accuracy, transparency, and real-world impact—where innovation meets purpose, and every solution is designed to empower people."
+          </motion.p>
+        </div>
+
+        {/* Author */}
+        <motion.div 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, delay: 0.6 }}
+          className="text-amber-500 font-medium tracking-wider text-sm mt-6 font-cormorant"
+        >
+          — Chandana Polipally
+        </motion.div>
         
       </div>
     </section>
