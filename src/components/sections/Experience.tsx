@@ -15,8 +15,8 @@ const EXPERIENCES = [
   {
     role: "B.Tech in Computer Science (AI & ML)",
     company: "St. Martin's Engineering College, Hyderabad",
-    duration: "2022 - 2026",
-    description: "Pursuing specialized coursework in Artificial Intelligence, Machine Learning, Data Structures, and Database Management. Consistently maintaining an academic record of 8.35 CGPA.",
+    duration: "2023 - 2027",
+    description: "Currently undertaking comprehensive coursework specializing in Artificial Intelligence, Machine Learning, Data Structures, and Database Management. Demonstrating consistent academic excellence with a maintained 8.35 CGPA.",
     tags: ["Academics", "AI Specialization"]
   }
 ];
