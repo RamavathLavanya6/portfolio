@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { FaGithub, FaLinkedin, FaEnvelope, FaChartBar, FaChartPie, FaFileExcel } from 'react-icons/fa';
-import { SiLeetcode, SiHackerrank, SiPython, SiMysql, SiPandas, SiNumpy, SiScikitlearn } from 'react-icons/si';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const ROLES = [
   'Data Analyst',
@@ -117,8 +116,6 @@ export default function Hero() {
               {[
                 { icon: FaGithub, href: 'https://github.com/RamavathLavanya6/', color: 'hover:text-white' },
                 { icon: FaLinkedin, href: 'https://www.linkedin.com/in/lavanyramavath', color: 'hover:text-blue-500' },
-                { icon: SiLeetcode, href: '#', color: 'hover:text-orange-500' },
-                { icon: SiHackerrank, href: '#', color: 'hover:text-green-500' },
                 { icon: FaEnvelope, href: 'mailto:lavanyaramavath6@gmail.com', color: 'hover:text-red-400' },
               ].map((social, idx) => (
                 <a key={idx} href={social.href} target="_blank" rel="noreferrer" className={`text-slate-400 text-2xl transition-all duration-300 hover:-translate-y-1 ${social.color} hover:shadow-[0_0_15px_currentColor]`}>
@@ -155,36 +152,7 @@ export default function Hero() {
                 </div>
               </motion.div>
 
-              {/* Orbiting Tech Badges */}
-              {[
-                { icon: SiPython, color: 'text-[#3776AB]', angle: 0 },
-                { icon: SiMysql, color: 'text-[#4479A1]', angle: 45 },
-                { icon: FaChartBar, color: 'text-[#F2C811]', angle: 90 },
-                { icon: FaChartPie, color: 'text-[#E97627]', angle: 135 },
-                { icon: FaFileExcel, color: 'text-[#217346]', angle: 180 },
-                { icon: SiPandas, color: 'text-white', angle: 225 },
-                { icon: SiScikitlearn, color: 'text-[#F7931E]', angle: 270 },
-                { icon: FaGithub, color: 'text-white', angle: 315 },
-              ].map((badge, idx) => {
-                // Responsive radius based on screen size (handled partially by hiding on mobile or using calc)
-                // For simplicity, using inline styles for absolute positioning
-                return (
-                  <motion.div
-                    key={idx}
-                    initial={{ opacity: 0, scale: 0 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 0.8 + (idx * 0.1), type: 'spring' }}
-                    className="absolute hidden md:flex items-center justify-center w-14 h-14 rounded-full bg-[#111827] border border-slate-700/50 shadow-lg shadow-black/50 z-20 hover:scale-125 transition-transform duration-300 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] cursor-pointer"
-                    style={{ 
-                      top: `calc(50% + ${Math.sin(badge.angle * (Math.PI / 180)) * 260}px)`, 
-                      left: `calc(50% + ${Math.cos(badge.angle * (Math.PI / 180)) * 260}px)`,
-                      transform: 'translate(-50%, -50%)'
-                    }}
-                  >
-                    <badge.icon className={`text-2xl ${badge.color}`} />
-                  </motion.div>
-                );
-              })}
+
 
             </motion.div>
           </div>

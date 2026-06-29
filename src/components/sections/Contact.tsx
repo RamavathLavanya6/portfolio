@@ -99,9 +99,6 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/lavanyramavath" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors text-xl cursor-pointer">
               <FaLinkedin />
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors font-bold text-sm uppercase tracking-wider cursor-pointer">
-              LeetCode
-            </a>
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-[0.7rem] tracking-[0.2em] font-medium uppercase text-slate-500">
