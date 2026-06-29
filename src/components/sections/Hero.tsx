@@ -57,7 +57,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 tracking-tight"
+              className="text-5xl md:text-6xl lg:text-7xl font-bold font-serif text-white mb-4 tracking-tight"
             >
               Lavanya <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Ramavath</span>
             </motion.h1>
