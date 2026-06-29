@@ -9,7 +9,7 @@ export default function About() {
         {/* Section Label */}
         <div className="text-[0.7rem] tracking-[0.3em] font-medium uppercase text-blue-400 flex items-center gap-4 mb-16">
           <div className="w-12 h-[2px] bg-blue-500/50 shrink-0" />
-          <span>01. BACKGROUND</span>
+          <span>01. ABOUT ME</span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-[clamp(3rem,5vw,6rem)] items-start">
