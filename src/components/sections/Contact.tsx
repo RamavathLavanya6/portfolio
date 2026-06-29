@@ -225,10 +225,7 @@ export default function Contact() {
         </motion.div>
 
         {/* Footer info links */}
-        <div className="mt-20 pt-10 border-t border-slate-800/80 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="text-[0.7rem] tracking-[0.2em] font-medium uppercase text-slate-500">
-            © {new Date().getFullYear()} Lavanya Ramavath
-          </div>
+        <div className="mt-20 pt-10 border-t border-slate-800/80 flex items-center justify-center">
           <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-[0.7rem] tracking-[0.2em] font-medium uppercase text-slate-500">
             <a href="mailto:lavanyaramavath0628@gmail.com" className="hover:text-blue-400 transition-colors cursor-pointer">lavanyaramavath0628@gmail.com</a>
             <span className="hidden md:inline">&mdash;</span>
