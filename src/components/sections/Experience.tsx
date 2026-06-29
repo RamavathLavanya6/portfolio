@@ -7,17 +7,10 @@ const EXPERIENCES = [
   {
     role: "Artificial Intelligence Intern",
     company: "Ediglobe",
-    duration: "2025",
-    description: "Completed an intensive internship program focusing on Artificial Intelligence and Machine Learning technologies. Applied theoretical knowledge to practical projects and gained hands-on experience in the field.",
-    tags: ["AI", "Machine Learning", "Python"],
-    certificate: "/edi-internship.jpeg"
-  },
-  {
-    role: "Machine Learning Intern",
-    company: "Detecting Malicious Twitter Bots Using Machine Learning",
     duration: "Sept 2025 - Nov 2025",
-    description: "Developed a robust machine learning model to detect and classify malicious Twitter bots by analyzing user behavior patterns, tweet frequencies, and account metadata. Leveraged NLP and classification algorithms to achieve high detection accuracy.",
-    tags: ["Python", "Scikit-learn", "NLP", "Pandas", "Matplotlib"]
+    description: "Completed an intensive internship program focusing on Artificial Intelligence and Machine Learning technologies. Developed a robust machine learning model to detect and classify malicious Twitter bots by analyzing user behavior patterns and tweet frequencies.",
+    tags: ["Python", "Machine Learning", "NLP", "Scikit-learn"],
+    certificate: "/portfolio/edi-internship.jpeg"
   },
   {
     role: "B.Tech in Computer Science (AI & ML)",
