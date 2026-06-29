@@ -56,7 +56,7 @@ export default function Certifications() {
       <div className="max-w-[1200px] mx-auto relative z-10">
         <div className="text-[0.7rem] tracking-[0.3em] font-medium uppercase text-blue-400 flex items-center gap-4 mb-16">
           <div className="w-12 h-[2px] bg-blue-500/50 shrink-0" />
-          <span>05. RECOGNITION</span>
+          <span>05. LEARNING AND GROWTH</span>
         </div>
 
         <h2 className="text-[clamp(2.5rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-[clamp(3rem,5vw,5rem)] tracking-tight">
